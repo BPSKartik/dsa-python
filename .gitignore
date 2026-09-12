@@ -1,9 +1,18 @@
-# Python
+# Byte-compiled / cache
 __pycache__/
+*.pyc
 *.py[cod]
-.venv/
-venv/
+*$py.class
+
+# Test / tooling caches
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
 
 # OS / editor
 .DS_Store
